@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "css": [ "comic.css" ],
+      "matches": [ "http://daringfireball.net/*" ]
+   } ],
+   "description": "Read Daring Fireball in Comic Sans and Marker Felt",
+   "icons": {
+      "48": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxvOlTNdyKnoaa5z9hLT8lufSoTLRflSaxqVbiwyTPjSwop4q+lHfetaMhijoSvucc2bXhIReZf6B7wsIKMEbNIWC05fGBVP2J2/e8gjYYHf2xF/w0hepZyheXjjwtETHiKZ/YvzhYh4c8bH0C7q8IelMODAnslIjqyJZdgI5+cwIDAQAB",
+   "name": "Comic Fireball",
+   "run_at": "document_start",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.5"
+}
